@@ -1,0 +1,69 @@
+GUIDO VAN ROSSUM developed python in 1991.
+PEP-Python enhancement proposal.
+
+Whenever we add file from local machine to git repository is called push operation.
+And if download any file that is known as pull operation.
+Python is an extensible language.
+
+==> Problem  
+1)Compuatational thinking.
+2)algorithmic thinking.
+3)logical thinking.
+4)Mathematical thinking.
+
+==> CPMCD-
+COMMUNICATION
+PLANNING
+MODELING
+CODING
+DEPLOYEMNET
+
+
+==> DS
+1) Access
+2) Store
+
+==> List- It is heterogeneous data structure.It is mutable.The list can be nested(list inside a list).It should be finite,ordered,mutable, sequence of elements.  a=[2,4,6,8,1,3,5,7]
+==> Dictionary - (key,value).Here every keyword having a unique meaning.It is also mutable map from hashable values to arbitrary objects.  e1=dict(one=1,two=2,three=3)
+
+==> Tuple= It is a immutable sequence.It is used to store heterogeneous data.    t1=("Name","Vishal").  
+==> Membership fxn - Use to search the element/value.
+
+==> In control flow If statement we have - 
+                                       a) 4 space to indent b) colon c) no curly braces
+==> Python is not having any switch statement.
+==> When no. of condition is not known is called ODD loop.
+==> 1) What is the operator presidence in python?
+
+==> In python everything is a object.Objects are always typed(defined).And it have a identity.And variables are untyped.
+==> The 'is' operator is used to check identity not equality.
+
+==> We use .get keyword to avoid the KeyError.
+==> We can delete values with del and pop fxns.
+==> ('Name','Vishal') in d1.items() it is a membership fxn used for comparing the value(that value is in the list or not).
+
+==> Swapping 
+>>> x=5
+	
+>>> y=6
+	
+>>> x=x^y
+	
+>>> y=x^y
+	
+>>> x=x^y
+	
+>>> print(x,y)
+	
+6 5
+>>> x,y=y,x
+	
+>>> x
+	
+5
+>>> y
+	
+6
+
+==> PIP- It is a package manager for python.
+==> Sets- Collection of well defined things.
